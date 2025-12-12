@@ -1,9 +1,10 @@
 # TM4C Festive Lights (ARM Assembly)
 
-Eight LEDs on **Port B** show three patterns—**Right→Left**, **Left→Right**, and a **pre-made random sequence**—selected with three switches on **Port E**. Frames are paced by a ~0.5 s delay. Pressing the same switch again **after release** stops playback and returns to the menu. Clean, table-driven frames + tidy GPIO for a simple teaching/demo build.
+Three LED patterns on **Port B**—**Right→Left**, **Left→Right**, and **Random**—are selected with switches on **Port E**. A ≈0.5 s frame cadence keeps motion readable, and a press-release-press on the same switch **toggles playback off**. Table-driven frames + small, separable GPIO drivers = a tidy TM4C123 teaching/demo build.
 
-🎥 **Demo:** https://www.youtube.com/watch?v=eIHVYZA6gng
+[![Demo](https://img.shields.io/badge/▶%20Demo-YouTube-red)](https://www.youtube.com/watch?v=eIHVYZA6gng)
 
+**Platform:** TM4C123GH6PM · **Toolchain:** ARM/Keil uVision · **Language:** ARM Thumb
 ---
 
 <details>
